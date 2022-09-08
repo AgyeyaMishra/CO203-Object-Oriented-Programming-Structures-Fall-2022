@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> //header file which declares a set of functions for standard Input/Output 
 
 using namespace std;
 
@@ -27,7 +27,7 @@ void Employee :: display()
 	cout<<"\nEmployee number : "<<Empnumber;
 }
 
-
+//driver function
 int main()
 {
     Employee Employee[6];
